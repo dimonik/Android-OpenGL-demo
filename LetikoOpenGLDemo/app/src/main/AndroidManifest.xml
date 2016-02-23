@@ -1,0 +1,46 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.letiko.opengldemo"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <permission android:name="com.letiko.opengldemo.LAUNCH_DEMO" />
+
+    <uses-permission android:name="com.letiko.opengldemo.LAUNCH_DEMO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.letiko.opengldemo.ui.SplashActivity"
+            android:label="@string/launcher_name"
+            android:noHistory="true"
+            android:theme="@style/SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.letiko.opengldemo.ui.DashboardActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:permission="com.letiko.opengldemo.LAUNCH_DEMO">
+            <intent-filter>
+                <action android:name="com.letiko.drivingrules.ua.controller.DashboardActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

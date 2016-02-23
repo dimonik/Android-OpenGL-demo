@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashlogoletiko"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/android:black"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".SplashLogoLetikoActivity">
+
+    <LinearLayout
+        android:id="@+id/rlone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:background="@color/android:white" />
+
+    <LinearLayout
+        android:id="@+id/rltwo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:background="@color/android:white"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/letiko_logo"
+            android:src="@drawable/logo" />
+
+    </LinearLayout>
+
+</LinearLayout>

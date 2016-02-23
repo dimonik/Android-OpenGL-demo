@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Letiko OpenGL demo</string>
+    <string name="launcher_name">OpenGL demo</string>
+    <string name="eula_header">Agreement</string>
+	<string name="eula_text">Android OpenGL ES 2.0 demo.
+    Copyright &#169; 2014  Dmytro Nikandrov, www.letiko.com.
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see http://www.gnu.org/licenses/</string>
+    <string name="eula_button_ok">OK</string>
+    <string name="menu_about_title">About</string>
+    <string name="menu_close_title">Exit</string>
+    <string name="letiko_logo">Letiko company logo</string>
+</resources>
